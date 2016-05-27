@@ -1,4 +1,4 @@
-## Timezones -Laravel package example
+## Timezones - Laravel package example
 
 ###Setup
 
