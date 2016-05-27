@@ -2,6 +2,12 @@
 
 ###Setup
 
+
+```sh
+$ cd myapp/packages
+$ git clone [git-repo-url] nancycoop/timezones
+```
+
 composer.json
 ```
 "autoload": {
@@ -19,7 +25,7 @@ composer.json
     
 ```
 ```
-composer dump-autoload
+$ composer dump-autoload
 ````
 
 config/app.php
@@ -35,7 +41,7 @@ config/app.php
 ### Publish views
 
 ```
-php artisan vendor:publish
+$ php artisan vendor:publish
 ```
 
 Packagist version incoming
