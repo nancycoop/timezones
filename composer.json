@@ -1,0 +1,25 @@
+{
+    "name": "nancycoop/timezones",
+    "type": "library",
+    "description": "My first laravel 5 package",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/[GITHUBREPO]",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florent Nosari",
+            "email": "nosari20@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Timezones": "src"
+        }
+    }
+}
+
